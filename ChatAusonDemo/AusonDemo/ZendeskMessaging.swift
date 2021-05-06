@@ -50,7 +50,7 @@ final class ZendeskMessaging: NSObject, JWTAuthenticator {
     var chatAPIConfig: ChatAPIConfiguration {
         let chatAPIConfig = ChatAPIConfiguration()
     
-        chatAPIConfig.department = "Auson"
+        //chatAPIConfig.department = "Auson"
         chatAPIConfig.visitorInfo = VisitorInfo(name: "LiveChatTest", email: "iyouqiang@iclouc.om", phoneNumber: "18566775007")
         chatAPIConfig.tags = ["iOS", "chat_v2"]
         return chatAPIConfig
