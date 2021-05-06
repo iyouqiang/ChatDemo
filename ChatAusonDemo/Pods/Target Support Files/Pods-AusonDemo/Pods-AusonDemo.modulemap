@@ -1,0 +1,6 @@
+framework module Pods_AusonDemo {
+  umbrella header "Pods-AusonDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
